@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "homepage": "http://BushCrescent.github.io/Portfolio_V3",
+  "homepage": "https://thejohnparks.com",
   "private": true,
   "dependencies": {
     "gh-pages": "^3.2.3",
