@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -13,7 +13,7 @@ import {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div>
         <Nav />
         <Switch>
