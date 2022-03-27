@@ -1,3 +1,4 @@
+import Section from "./Section";
 const AboutMe = () => {
   return (
 <div>
@@ -17,7 +18,7 @@ const AboutMe = () => {
             <a href = "https://github.com/BushCrescent/Movie_Searcher">Github</a>
         </article>
     </div>
-    
+<Section></Section>
     <div class="ocean">
       <div class="wave"></div>
       <div class="wave"></div>

@@ -3,7 +3,9 @@ body {
   background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
   overflow: hidden;
 }*/
-
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 .ocean { 
   height: 5%;
   width:100%;
@@ -48,4 +50,87 @@ body {
 }
 .git-links{
     font-size: 20px;
+}
+.ProjectImg{
+  max-width: 100%;
+}
+.SectionTextContainer{
+  display: flex;
+  flex-direction: column;
+}
+.SectionProjectHeader{
+  text-align: left;
+}
+
+.nav-items{
+  margin: 0 20px;
+  text-decoration: none !important;
+  color: white !important;
+}
+.navbar-brand{
+  margin-left: 20px;
+}
+.my-name-is{
+  margin-left:200px;
+  font-size:25px;
+  margin-top:50px;
+  animation-duration: 500ms;
+  /* transition-delay:10000ms; */
+  
+}
+.big-heading{
+  font-weight:700;
+  font-size:75px;
+  margin-left:200px;
+  animation-duration: 700ms;
+  /* transition-delay:10000ms; */
+  
+}
+.I-am-a{
+  margin-left: 200px;
+  font-size:25px;
+  animation-duration: 900ms;
+  /* transition-delay:300ms; */
+  
+}
+#about{
+  margin-left:200px;
+  animation-duration:1100ms;
+  margin-top: 1000px;
+}
+/*Animaton*/
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
 }

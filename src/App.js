@@ -2,7 +2,8 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
 import AboutMe from "./components/AboutMe";
-import React from "react";
+import Home from "./components/Home";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,6 +17,9 @@ export default function App() {
       <div>
         <Nav />
         <Switch>
+        <Route path="/">
+            <Home />
+          </Route>
           <Route path="/AboutMe">
             <AboutMe />
           </Route>
@@ -23,6 +27,7 @@ export default function App() {
             <Form />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
