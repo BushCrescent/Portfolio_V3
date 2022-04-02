@@ -23,9 +23,9 @@ export default function App() {
           <Route path="/AboutMe">
             <AboutMe />
           </Route>
-          <Route path="/Form">
+          {/* <Route path="/Form">
             <Form />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer/>
       </div>
