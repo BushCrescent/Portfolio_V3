@@ -17,13 +17,13 @@ export default function App() {
       <div>
         <Nav />
         <Switch>
-        <Route path="/">
+        <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/AboutMe">
+          <Route exact path="/AboutMe">
             <AboutMe />
           </Route>
-          {/* <Route path="/Form">
+          {/* <Route exact path="/Form">
             <Form />
           </Route> */}
         </Switch>
