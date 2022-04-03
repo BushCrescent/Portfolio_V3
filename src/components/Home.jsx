@@ -10,13 +10,12 @@ const Home = () => {
       <section id="about" className="animated animatedFadeInUp fadeInUp">
       <article>
             <a href = "https://bushcrescent.github.io/5_Day_Weather/">
-                <h1 className="links">5 Day Weather</h1>
+                <center><h1 className="links underline">5 Day Weather</h1></center>
             </a>
-            <img src="/images/5Day_Weather.png"></img>
         </article>
         <article>
             <a href = "https://bushcrescent.github.io/Movie_Searcher/">
-                <h1 className="links">Movie Searcher</h1>
+                <center><h1 className="links underline">Movie Searcher</h1></center>
             </a>
         </article>
       </section>
