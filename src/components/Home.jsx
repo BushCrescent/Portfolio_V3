@@ -60,6 +60,13 @@ const Home = () => {
             </center>
           </a>
         </article>
+        <article>
+          <a target="_blank" href="https://sushisushirestaurant.com/">
+            <center>
+              <h1 className="links underline">Sushi Sushi</h1>
+            </center>
+          </a>
+        </article>
       </section>
     </>
   );

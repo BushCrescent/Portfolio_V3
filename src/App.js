@@ -4,12 +4,7 @@ import Form from "./components/Form";
 import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
 
-import {
-  HashRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -17,17 +12,17 @@ export default function App() {
       <div>
         <Nav />
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/AboutMe">
+          <Route exact path="/aboutme">
             <AboutMe />
           </Route>
           {/* <Route exact path="/Form">
             <Form />
           </Route> */}
         </Switch>
-        <Footer/>
+        <Footer />
       </div>
     </Router>
   );
