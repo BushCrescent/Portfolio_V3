@@ -6,42 +6,46 @@ body {
 * {
   font-family: "Montserrat", sans-serif;
 }
-.ocean {
-  height: 5%;
-  width: 100%;
-  position: absolute;
-  margin-top: 350px;
-  left: 0;
-  background: #015871;
+
+.background_color {
+  background-color: #815854;
+}
+.font_color {
+  color: #f9ebde;
+}
+.card {
+  border: 1px solid black;
+  max-width: 30%;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box; /* Including padding within the element's width */
+  display: inline-block; /* Display the cards as inline blocks */
+  vertical-align: top; /* Align the cards to the top */
 }
 
-.wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
-    repeat-x;
-  position: absolute;
-  top: -198px;
-  width: 6400px;
-  height: 198px;
-  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
+.card-row {
+  text-align: center; /* Center the cards within the row */
 }
-
-.wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
-    swell 7s ease -1.25s infinite;
-  opacity: 1;
+/* .card {
+  border: black;
+  max-width: 30%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  vertical-align: top;
 }
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
+.card-row:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+} */
+.button_container {
 }
-
+.card_button {
+  padding: 7px;
+  margin: 5px;
+}
 @keyframes swell {
   0%,
   100% {
@@ -68,7 +72,7 @@ body {
 .nav-items {
   margin: 0 20px;
   text-decoration: none !important;
-  color: white !important;
+  color: #f9ebde !important;
 }
 .navbar-brand {
   margin-left: 20px;
@@ -77,33 +81,33 @@ body {
   margin-left: 200px;
   font-size: 25px;
   margin-top: 50px;
-  animation-duration: 500ms;
-  animation-delay: 1000ms;
+  animation-duration: 250ms;
+  animation-delay: 500ms;
 }
 .big-heading {
   font-weight: 700;
   font-size: 75px;
   margin-left: 200px;
-  animation-duration: 700ms;
-  animation-delay: 2000ms;
+  animation-duration: 350ms;
+  animation-delay: 1000ms;
 }
 .big-heading2 {
   font-weight: 700;
   font-size: 75px;
   margin-left: 200px;
-  animation-duration: 700ms;
-  animation-delay: 3000ms;
+  animation-duration: 350ms;
+  animation-delay: 1500ms;
 }
 .I-am-a {
   margin-left: 200px;
   font-size: 25px;
-  animation-duration: 900ms;
-  animation-delay: 4000ms;
+  animation-duration: 450ms;
+  animation-delay: 2000ms;
 }
 #about {
-  animation-duration: 1100ms;
+  animation-duration: 550ms;
   margin-top: 100px;
-  animation-delay: 5000ms;
+  animation-delay: 2500ms;
 }
 /*Animaton*/
 @keyframes fadeInUp {
@@ -144,7 +148,7 @@ body {
 
 .links {
   text-decoration: none;
-  color: black;
+  color: #f9ebde;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -161,7 +165,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: #f9ebde;
   transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
@@ -174,4 +178,18 @@ a:visited,
 a:link,
 a:active {
   text-decoration: none;
+}
+
+.container {
+  margin: 50px;
+  display: flex;
+}
+
+.logo {
+  margin-right: 50px;
+  max-width: 35%;
+}
+
+.div1 {
+  max-width: 80%;
 }

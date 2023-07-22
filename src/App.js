@@ -3,13 +3,12 @@ import Footer from "./components/Footer";
 import Form from "./components/Form";
 import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
-
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
     <Router basename="/">
-      <div>
+      <div className="background_color">
         <Nav />
         <Switch>
           <Route exact path="/">
