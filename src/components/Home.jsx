@@ -48,13 +48,6 @@ const Home = () => {
             </a>
           </article>
           <article>
-            <a href="">
-              <center>
-                <h1 className="links underline">Speech Buddy</h1>
-              </center>
-            </a>
-          </article>
-          <article>
             <a
               target="_blank"
               href="https://bushcrescent.github.io/tic-tac-toe/"
